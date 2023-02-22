@@ -1,0 +1,21 @@
+.error_wrapper {
+    margin-top: 25px;
+    width: 1880px;
+    height: 950px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(250, 235, 215, 0.8);
+    text-align: center;
+    /* margin-top: 500px; */
+}
+
+.error_message_0 {
+    font-size: 30px;
+    padding-top: 300px;
+    padding-bottom: 15px;
+}
+
+.error_message_1 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}

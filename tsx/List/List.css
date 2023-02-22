@@ -1,0 +1,14 @@
+.grid_wrapper {
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px 290px ;
+    grid-column-gap: 40px;
+    background-color:rgb(12, 12, 12);
+    margin-top: 15px;
+    width: 1660px;
+}
+
+/* .mock {
+    position: absolute;
+    margin-top: -00px;
+    color: white;
+} */

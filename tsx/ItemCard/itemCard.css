@@ -1,0 +1,75 @@
+.card_wrapper {
+  margin: 30px 30px;
+  position: relative;
+  width: 260px;
+  height: 384px;
+  box-shadow: 6px 6px 10px 1px rgba(55, 55, 56, 0.3);
+}
+
+.card_img {
+  width: 260px;
+  height: 384px;
+}
+
+
+
+.card_rating {
+  padding-left: 10px;
+  position: absolute;
+  top: 10px;
+  display: flex;
+  color: antiquewhite;
+  font-size: 18px;
+}
+
+.rating {
+  min-width: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.btn_star {
+  background-image: url("../../icon/star.png");
+  background-color: antiquewhite;
+  margin-left: 105px;
+  height: 16px;
+  width: 16px;
+  border: none;
+  border-radius: 100%;
+}
+
+.btn_star:hover {
+  background-image: url("../../icon/stargold.png");
+  background-color: rgb(195, 210, 223);
+}
+
+.btn_book {
+  background-image: url("../../icon/bookmark.png");
+  background-color: antiquewhite;
+  margin-left: 2px;
+  border: none;
+  height: 16px;
+  width: 16px;
+}
+
+.btn_book:hover {
+  background-image: url("../../icon/bookmarkblue.png");
+  background-color: rgb(204, 223, 195);
+}
+
+.more_info {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  color: rgb(204, 191, 175);
+  top: 355px;
+  margin-left: 165px;
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.mock {
+  position: absolute;
+  top: 10px;
+  color: white
+}

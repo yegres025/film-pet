@@ -1,0 +1,79 @@
+.search_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 0 200px;
+  border: 1px solid white;
+}
+
+.select_wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 270px;
+  width: 200px;
+  border: 1px solid white;
+  margin-top: 300px;
+  padding-bottom: 30px;
+}
+.select_wrapper select {
+  width: 100px;
+  font-family: "Iosevka Slab";
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+.select_wrapper button {
+  margin-top: 40px;
+  width: 70px;
+  height: 35px;
+  margin-right: 7px;
+  margin-left: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(19, 58, 32);
+  color: antiquewhite;
+}
+
+.film_wrapper {
+  border: 1px solid white;
+  margin-top: 100px;
+  width: 400px;
+  height: 600px;
+}
+.film_wrapper img {
+  width: 290px;
+  height: 414px;
+  border: 1px solid white;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.film_wrapper div {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.entry_filter {
+  color: white;
+  font-size: 20px;
+  margin-top: 38px;
+}
+
+.fake_button {
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 70px;
+  height: 35px;
+  margin-right: 7px;
+  margin-left: 7px;
+  border-radius: 5px;
+  border: 1px solid white;
+}/*# sourceMappingURL=Search.css.map */

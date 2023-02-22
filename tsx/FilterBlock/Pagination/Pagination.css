@@ -1,0 +1,37 @@
+.filter_btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 196px;
+    /* margin-left: 18px; */
+}
+
+.btn {
+    border: none;
+    height: 35px;
+    width: 80px;
+    background-color:rgb(19, 58, 32);
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.btn_lock {
+    font-size: 13px;
+    border: none;
+    height: 26px;
+    width: 80px;
+    background-color:rgb(12, 37, 20);
+    color: rgb(160, 142, 118);
+    pointer-events: none;
+    text-align: center;
+    padding-top: 9px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.number_page {
+    color:antiquewhite;
+    text-align: center;
+    margin-top: 14px;
+}

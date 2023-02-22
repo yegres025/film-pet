@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(12, 12, 12);
+  width: 100%;
+  margin: 0 auto;
+  height: 50px;
+  box-shadow: 0px 10px 40px 10px rgba(27, 27, 27, 0.2);
+}
+
+.btn_home,
+.btn_login {
+  color: rgb(141, 130, 116);
+  width: 60px;
+  background-color: transparent;
+  border: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 18px;
+  font-family: Iosevka Slab;
+  border-radius: 4px;
+  height: 30px;
+  margin-top: 10px;
+  cursor:pointer;
+}
+
+.btn_login {
+  background-image: url("../../icon/login.png");
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 24px;
+  height: 25px;
+  background-color: rgb(23, 71, 38);
+}
+
+.search_container {
+  display: flex;
+}
+
+.button_search {
+  color: antiquewhite;
+  background-color: rgba(250, 235, 215, 0.4);
+  text-align: left;
+  border: none;
+  height: 26px;
+  padding-top: 5px;
+  width: 80px;
+  margin-top: 6px;
+  padding-left: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.05s all;
+}
+
+.button_search:hover {
+  box-shadow: 0px 0px 3px 1px rgb(255,255,255);
+}
+
+.button_search:active {
+  padding-top: 5px;
+  padding-left: 13px;
+  box-shadow: 0px 0px 5px 2px rgb(255,255,255);
+  font-size: 15px;
+  transition: 0.05s all;
+}
+
+.searc_logo {
+  position: absolute;
+  background-image: url("../../icon/search.png");
+  margin-top: 10px;
+  margin-left: 60px;
+  width: 24px;
+  height: 24px;
+}
+
+.exit_btn {
+  background-color: rgba(250, 235, 215, 0.2);
+  background-image:url('../../icon/exit.png');
+  width: 30px;
+  height: 28px;
+  margin-top: 8px;
+  margin-right: 25px;
+  cursor: pointer;
+}

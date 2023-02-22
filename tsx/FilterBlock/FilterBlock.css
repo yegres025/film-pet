@@ -1,0 +1,46 @@
+.filter_wrapper {
+    color:rgb(141, 130, 116);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    width: 200px;
+    height: 800px;
+    border-left: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 4px 1px 10px 0px rgba(63, 63, 63, 0.2);
+}
+.filter_header {
+    color: antiquewhite;
+    font-size: 28px;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.filter_reset {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 12px;
+    background-color:rgb(19, 58, 32);
+    font-size: 15px;
+    font-weight: bold;
+    height: 36px;
+    width: 200px;
+    color:antiquewhite;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.filter_selector {
+    font-family: 'Times New Roman', Times, serif;
+    background:rgb(153, 134, 51);
+    height: 36px;
+    width: 200px;
+    font-size: 14px;
+    padding-left: 4px;
+    background-color:rgba(173, 168, 161, 0.4);
+    margin-top: 4px;
+    margin-bottom: 18px;
+    color: rgb(197, 182, 161);
+}
